@@ -22,6 +22,9 @@
 		55B44D9F1B4A66C20099D3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B44D9E1B4A66C20099D3AE /* Assets.xcassets */; };
 		55B44DB31B4A6D140099D3AE /* tableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B44DB11B4A6AB70099D3AE /* tableRowController.swift */; };
 		55B44DB51B4A6D430099D3AE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B44D981B4A66C20099D3AE /* InterfaceController.swift */; };
+		55B44DBA1B4A805D0099D3AE /* Jernej.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B44DB71B4A805D0099D3AE /* Jernej.png */; };
+		55B44DBB1B4A805D0099D3AE /* Žan.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B44DB81B4A805D0099D3AE /* Žan.png */; };
+		55B44DBC1B4A805D0099D3AE /* Tanja.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B44DB91B4A805D0099D3AE /* Tanja.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,9 @@
 		55B44D9E1B4A66C20099D3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B44DA01B4A66C20099D3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B44DB11B4A6AB70099D3AE /* tableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tableRowController.swift; path = "Tables_2 WatchKit Extension/tableRowController.swift"; sourceTree = SOURCE_ROOT; };
+		55B44DB71B4A805D0099D3AE /* Jernej.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jernej.png; sourceTree = "<group>"; };
+		55B44DB81B4A805D0099D3AE /* Žan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Žan.png"; sourceTree = "<group>"; };
+		55B44DB91B4A805D0099D3AE /* Tanja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tanja.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,9 @@
 			children = (
 				55B44D871B4A66C20099D3AE /* Interface.storyboard */,
 				55B44D8A1B4A66C20099D3AE /* Assets.xcassets */,
+				55B44DB71B4A805D0099D3AE /* Jernej.png */,
+				55B44DB81B4A805D0099D3AE /* Žan.png */,
+				55B44DB91B4A805D0099D3AE /* Tanja.png */,
 				55B44D8C1B4A66C20099D3AE /* Info.plist */,
 			);
 			path = "Tables_2 WatchKit App";
@@ -342,6 +351,9 @@
 			files = (
 				55B44D8B1B4A66C20099D3AE /* Assets.xcassets in Resources */,
 				55B44D891B4A66C20099D3AE /* Interface.storyboard in Resources */,
+				55B44DBA1B4A805D0099D3AE /* Jernej.png in Resources */,
+				55B44DBB1B4A805D0099D3AE /* Žan.png in Resources */,
+				55B44DBC1B4A805D0099D3AE /* Tanja.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

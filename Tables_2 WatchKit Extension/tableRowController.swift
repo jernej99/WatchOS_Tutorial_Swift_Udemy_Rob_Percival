@@ -13,6 +13,7 @@ class tableRowController: NSObject {
     
     @IBOutlet var rowLabel: WKInterfaceLabel!
     
+    @IBOutlet var rowImage: WKInterfaceImage!
     
 
 }

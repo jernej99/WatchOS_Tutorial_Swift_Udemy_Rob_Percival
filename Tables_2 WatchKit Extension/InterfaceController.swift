@@ -19,7 +19,10 @@ class InterfaceController: WKInterfaceController {
         
         let familyMembers = ["Jernej", "Tanja", "Žan"]
         
+        let fileNames = ["Jernej", "Tanja", "Žan"]
+        
         table.setNumberOfRows(familyMembers.count, withRowType: "tableRowController")
+        
         
         
 
@@ -28,6 +31,8 @@ class InterfaceController: WKInterfaceController {
             let row = table.rowControllerAtIndex(index) as! tableRowController
 
             row.rowLabel.setText(familyMemberName)
+            
+            row.rowImage.setImageNamed(fileNames[index] + ".png")
     
         }
         

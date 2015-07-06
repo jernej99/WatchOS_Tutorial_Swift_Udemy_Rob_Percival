@@ -16,9 +16,11 @@
                                     <group key="rootItem" width="1" alignment="left" id="LpB-fS-mnt">
                                         <items>
                                             <label alignment="center" verticalAlignment="center" text="Our first row" textAlignment="left" id="tF3-Zd-H1K"/>
+                                            <imageView width="30" height="30" alignment="left" verticalAlignment="center" id="fFa-XR-SGa"/>
                                         </items>
                                     </group>
                                     <connections>
+                                        <outlet property="rowImage" destination="fFa-XR-SGa" id="yb8-sb-tAT"/>
                                         <outlet property="rowLabel" destination="tF3-Zd-H1K" id="Lxm-U7-CYU"/>
                                     </connections>
                                 </tableRow>

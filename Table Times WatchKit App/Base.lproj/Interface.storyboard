@@ -10,7 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Table_Times_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="wKX-8F-kDU"/>
+                        <slider width="1" alignment="left" value="0.5" minimum="0.10000000000000001" steps="9" id="wKX-8F-kDU">
+                            <connections>
+                                <action selector="sliderMoved:" destination="AgC-eL-Hgc" id="1fN-aH-GNR"/>
+                            </connections>
+                        </slider>
                         <table alignment="left" id="YbW-0J-vL3">
                             <items>
                                 <tableRow identifier="tableLabelRowController" id="RJ9-cH-KyH" customClass="tableLabelRowController" customModule="Table_Times_WatchKit_Extension">

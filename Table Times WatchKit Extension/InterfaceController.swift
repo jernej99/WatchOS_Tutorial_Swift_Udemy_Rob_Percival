@@ -11,17 +11,29 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
     @IBOutlet var slider: WKInterfaceSlider!
+    
+    @IBAction func sliderMoved(value: Float) {
+        
+        tableLabel.setNumberOfRows(10, withRowType: "tableLabelRowController")
+        
+        for var i = 1; i <= 10; i++ {
+        
+            let row = tableLabel.rowControllerAtIndex(i-1) as! tableLabelRowController
+        
+        row.label.setText("\(i*Int(value*10))")
+        }
+        
+    }
+    
+    
     @IBOutlet var tableLabel: WKInterfaceTable!
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        tableLabel.setNumberOfRows(3, withRowType: "tableLabelRowController")
         
-        let row = tableLabel.rowControllerAtIndex(0) as! tableLabelRowController
-        
-        row.label.setText("Updated")
         
         
         

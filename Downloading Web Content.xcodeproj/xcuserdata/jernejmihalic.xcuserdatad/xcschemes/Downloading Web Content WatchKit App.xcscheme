@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "550A876F1B4E60E200939465"
+               BuildableName = "Downloading Web Content WatchKit App.app"
+               BlueprintName = "Downloading Web Content WatchKit App"
+               ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "550A87391B4E60BB00939465"
+               BuildableName = "Downloading Web Content.app"
+               BlueprintName = "Downloading Web Content"
+               ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "550A87621B4E60E200939465"
+               BuildableName = "Downloading Web Content WatchKit Extension.appex"
+               BlueprintName = "Downloading Web Content WatchKit Extension"
+               ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "550A876F1B4E60E200939465"
+            BuildableName = "Downloading Web Content WatchKit App.app"
+            BlueprintName = "Downloading Web Content WatchKit App"
+            ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Downloading Web Content">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "550A876F1B4E60E200939465"
+            BuildableName = "Downloading Web Content WatchKit App.app"
+            BlueprintName = "Downloading Web Content WatchKit App"
+            ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "550A876F1B4E60E200939465"
+            BuildableName = "Downloading Web Content WatchKit App.app"
+            BlueprintName = "Downloading Web Content WatchKit App"
+            ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Downloading Web Content">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "550A876F1B4E60E200939465"
+            BuildableName = "Downloading Web Content WatchKit App.app"
+            BlueprintName = "Downloading Web Content WatchKit App"
+            ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "550A876F1B4E60E200939465"
+            BuildableName = "Downloading Web Content WatchKit App.app"
+            BlueprintName = "Downloading Web Content WatchKit App"
+            ReferencedContainer = "container:Downloading Web Content.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -12,30 +12,38 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
-    @IBOutlet var label: WKInterfaceLabel!
-
+    @IBOutlet var displayImage: WKInterfaceImage!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        // Configure interface objects here.
+        let documentPath: AnyObject = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+        let destinationPath = documentPath.stringByAppendingPathComponent("avrelij.jpg")
         
-        let url = NSURL(string: "http://www.applewatchdevelopercourse.com/message.html")
-        let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response, error) -> Void in
+        var fileManager = NSFileManager.defaultManager()
+        if fileManager.fileExistsAtPath(destinationPath) {
+        
+            let avrelij = UIImage(contentsOfFile: destinationPath)
+            displayImage.setImage(avrelij)
+            
+        } else {
+        
+            let url = NSURL(string: "https://pioneerpitstop.files.wordpress.com/2014/08/marcus.jpg")
+            let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response, error) -> Void in
             
             if error == nil {
                 
-                var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding)
-            
-                self.label.setText(urlContent! as String)
+                var aureliusImage = UIImage(data: data)
+                self.displayImage.setImage(aureliusImage)
+                UIImageJPEGRepresentation(aureliusImage, 1.0).writeToFile(destinationPath, atomically: true)
                 
             } else {
                 
                 print(error)
-            }
-            
+                }
         })
         task.resume()
-        
+        }
     }
 
     override func willActivate() {
